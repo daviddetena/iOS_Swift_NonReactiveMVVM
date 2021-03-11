@@ -15,6 +15,7 @@
 		59811D2225FAAE000084ACAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59811D2025FAAE000084ACAE /* LaunchScreen.storyboard */; };
 		59811D2D25FAAE010084ACAE /* Non_Reactive_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59811D2C25FAAE010084ACAE /* Non_Reactive_MVVMTests.swift */; };
 		59811D3825FAAE010084ACAE /* Non_Reactive_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59811D3725FAAE010084ACAE /* Non_Reactive_MVVMUITests.swift */; };
+		59811D4A25FAB5820084ACAE /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59811D4925FAB5820084ACAE /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		59811D3325FAAE010084ACAE /* Non Reactive MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Non Reactive MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59811D3725FAAE010084ACAE /* Non_Reactive_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Non_Reactive_MVVMUITests.swift; sourceTree = "<group>"; };
 		59811D3925FAAE010084ACAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59811D4925FAB5820084ACAE /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,12 @@
 		59811D1425FAADFF0084ACAE /* Non Reactive MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				59811D5525FAB89E0084ACAE /* Views */,
+				59811D5425FAB8970084ACAE /* ViewControllers */,
+				59811D5325FAB88C0084ACAE /* Services */,
+				59811D5225FAB8820084ACAE /* Protocols */,
+				59811D5125FAB8740084ACAE /* Extensions */,
+				59811D4825FAB5540084ACAE /* Models */,
 				59811D1525FAADFF0084ACAE /* AppDelegate.swift */,
 				59811D1725FAADFF0084ACAE /* SceneDelegate.swift */,
 				59811D1925FAADFF0084ACAE /* ViewController.swift */,
@@ -126,6 +134,49 @@
 				59811D3925FAAE010084ACAE /* Info.plist */,
 			);
 			path = "Non Reactive MVVMUITests";
+			sourceTree = "<group>";
+		};
+		59811D4825FAB5540084ACAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59811D4925FAB5820084ACAE /* Friend.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		59811D5125FAB8740084ACAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		59811D5225FAB8820084ACAE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		59811D5325FAB88C0084ACAE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		59811D5425FAB8970084ACAE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		59811D5525FAB89E0084ACAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +312,7 @@
 				59811D1A25FAADFF0084ACAE /* ViewController.swift in Sources */,
 				59811D1625FAADFF0084ACAE /* AppDelegate.swift in Sources */,
 				59811D1825FAADFF0084ACAE /* SceneDelegate.swift in Sources */,
+				59811D4A25FAB5820084ACAE /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
